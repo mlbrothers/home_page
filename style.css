@@ -1,0 +1,32 @@
+body{
+    background-color: #111111;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 48px;
+    background: linear-gradient(to right,#fa0, #f0e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 12.5%;
+}
+.tagline{
+    color: #EEEEEE;
+    font-size: 24px;
+    text-align: center;
+    margin: 3% 0;
+}
+
+svg{
+    filter: invert(32%) sepia(60%) saturate(5373%) hue-rotate(340deg) brightness(109%) contrast(102%);
+    transform: scale(2);
+}
+.mail{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
