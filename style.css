@@ -30,3 +30,13 @@ svg{
     text-align: center;
     width: 100%;
 }
+@media (width<600px) {
+    body{
+        width: 100%;
+        margin-top: 50%;
+        /* padding: 5%; */
+    }
+    .tagline{
+        margin: 5%;
+    }
+}
